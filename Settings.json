@@ -1,0 +1,12 @@
+{
+    "metamask_address": "",
+    "metamask_private_key": "",
+    "RPC": "https://bsc-dataseed1.defibit.io/",
+    "GWEI_GAS": 8,
+    "MaxTXFeeBNB": 0.01,
+    "Slippage": 10,
+    "MaxBuyTax": 15,
+    "MaxSellTax": 15,
+    "MinBuyTax": 1,
+    "MinSellTax": 1
+}
