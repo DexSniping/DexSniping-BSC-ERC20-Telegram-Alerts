@@ -7,7 +7,9 @@ Web3 Pancakeswap Sniper & Take Profit/StopLoss bot written in python3
 ## Our thanks:
 
 BOT is free-to-use, but you are welcome to appreciate my work ☺️
+
 ETH - 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52
+
 BNB - 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52
 
 # Features
@@ -18,7 +20,7 @@ BNB - 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52
 - Coming soon: ERC-20 support
 - Coming soon: Telegram Alerts with custom bot
 
-![Sniper](Screenshot.png)  
+![Sniper](screenshot.png)  
 
 # Download
 ### If you are not familiar with Python please have a look at [Releases]
