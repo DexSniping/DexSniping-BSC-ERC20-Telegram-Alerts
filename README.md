@@ -34,7 +34,9 @@ Debian/Ubuntu: $ sudo apt install python3 git make gcc
 Windows: Need to install Visual Studio BuildTools & Python3
 ```
 
-### Setup your Address and secret key in Settings.json.
+### Setup your address (just under your account name) and secret key in Settings.json.
+
+![howto](how-to-export.gif)  
 
 Clone Repo:  
 ```shell
