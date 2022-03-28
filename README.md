@@ -34,6 +34,15 @@ Debian/Ubuntu: $ sudo apt install python3 git make gcc
 Windows: Need to install Visual Studio BuildTools & Python3
 ```
 
+**For Windows:**
+Download Windows BuildTools: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+And install **BuildTools C++**
+
+![buildtools](buildtools.png)  
+
+
+
 ### Setup your address (just under your account name) and secret key in Settings.json.
 
 ![howto](how-to-export.gif)  
@@ -46,16 +55,16 @@ cd DexSniping-BSC-ERC20-Telegram-Alerts
 
 Install Requirements:  
 ```python
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```  
 
 Start Sniper:  
 ```python
-python Sniper.py -t <TOKEN_ADDRESS> -a <AMOUNT> -tx <TXAMOUNT> -hp -wb <BLOCKS WAIT BEFORE BUY> -tp <TAKE PROFIT IN PERCENT> -sl <STOP LOSE IN PERCENT>
-python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.001 -tx 2 -hp  -wb 10 -tp 50
-python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 --sellonly
-python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.001 --buyonly
-python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -tsl 10 -nb
+python3 Sniper.py -t <TOKEN_ADDRESS> -a <AMOUNT> -tx <TXAMOUNT> -hp -wb <BLOCKS WAIT BEFORE BUY> -tp <TAKE PROFIT IN PERCENT> -sl <STOP LOSE IN PERCENT>
+python3 Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.001 -tx 2 -hp  -wb 10 -tp 50
+python3 Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 --sellonly
+python3 Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.001 --buyonly
+python3 Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -tsl 10 -nb
 ```  
 
 Here are all options with infos:  
