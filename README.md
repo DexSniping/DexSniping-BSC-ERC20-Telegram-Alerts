@@ -27,6 +27,7 @@ BNB - 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52
 
 # Install
 **I'm using version 3.9.12 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: https://www.python.org/downloads/release/python-3912/
+
 Run on Android you need Install [Termux](https://termux.com/)  
 ```shell
 termux: $ pkg install python git
@@ -55,19 +56,19 @@ cd DexSniping-BSC-ERC20-Telegram-Alerts
 
 Install Requirements:  
 
-**Try to remove the "3" after python if you have problems, like: python sniper.py**
+**Try to add "3" after python if you have problems, like: python3 sniper.py...**
 
 ```python
-python3 -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```  
 
 Start Sniper:  
 ```python
-python3 Sniper.py -t <TOKEN_ADDRESS> -a <AMOUNT> -tx <TXAMOUNT> -hp -wb <BLOCKS WAIT BEFORE BUY> -tp <TAKE PROFIT IN PERCENT> -sl <STOP LOSE IN PERCENT>
-python3 Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.001 -tx 2 -hp  -wb 10 -tp 50
-python3 Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 --sellonly
-python3 Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.001 --buyonly
-python3 Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -tsl 10 -nb
+python Sniper.py -t <TOKEN_ADDRESS> -a <AMOUNT> -tx <TXAMOUNT> -hp -wb <BLOCKS WAIT BEFORE BUY> -tp <TAKE PROFIT IN PERCENT> -sl <STOP LOSE IN PERCENT>
+python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.001 -tx 2 -hp  -wb 10 -tp 50
+python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 --sellonly
+python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.001 --buyonly
+python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -tsl 10 -nb
 ```  
 
 Here are all options with infos:  
@@ -96,13 +97,13 @@ Here are all options with infos:
 
 ## Troubleshooting:
 
-<em>Problem: My bot does not start and displays a "loadTokens" error:</em>
+<em>Problem: My bot does not start and displays a "loadTokens" or "unknown opcode" error:</em>
 
 Solution: I'm using version 3.9.12 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot): https://www.python.org/downloads/release/python-3912/
 
-<em>Problem: "python3" does not work, what to do?</em>
+<em>Problem: "python" does not work, what to do?</em>
 
-Solution: Try to remove the "3" after python, like: python sniper.py...
+Solution: Try to add "3" after python if you have problems, like: python3 sniper.py...
 
 <em>Problem: I have a problem when I try to install the requirements</em>
 
