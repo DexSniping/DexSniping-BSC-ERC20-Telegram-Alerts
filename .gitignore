@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+private/
+
+DexSniping-BSC-ERC20-Telegram-Alerts.zip
