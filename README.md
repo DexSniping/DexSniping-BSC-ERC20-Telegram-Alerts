@@ -26,7 +26,7 @@ BNB - 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52
 ### If you are not familiar with Python please have a look at [Releases]
 
 # Install
-**First of all, you need install Python3+**
+**I'm using version 3.9.12 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: https://www.python.org/downloads/release/python-3912/
 Run on Android you need Install [Termux](https://termux.com/)  
 ```shell
 termux: $ pkg install python git
@@ -55,9 +55,7 @@ cd DexSniping-BSC-ERC20-Telegram-Alerts
 
 Install Requirements:  
 
-**I'm using version 3.9.12 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: https://www.python.org/downloads/release/python-3912/
-
-
+**Try to remove the "3" after python if you have problems, like: python sniper.py**
 
 ```python
 python3 -m pip install -r requirements.txt
