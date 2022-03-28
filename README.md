@@ -54,6 +54,11 @@ cd DexSniping-BSC-ERC20-Telegram-Alerts
 ```
 
 Install Requirements:  
+
+**I'm using version 3.9.12 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: https://www.python.org/downloads/release/python-3912/
+
+
+
 ```python
 python3 -m pip install -r requirements.txt
 ```  
@@ -89,3 +94,18 @@ Here are all options with infos:
 ```
 ## Trailing-Stop-Loss:
 <img src="https://i.ytimg.com/vi/dZFb0-fwqOk/maxresdefault.jpg" height="400">
+
+
+## Troubleshooting:
+
+<em>Problem: My bot does not start and displays a "loadTokens" error:</em>
+
+Solution: I'm using version 3.9.12 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot): https://www.python.org/downloads/release/python-3912/
+
+<em>Problem: "python3" does not work, what to do?</em>
+
+Solution: Try to remove the "3" after python, like: python sniper.py...
+
+<em>Problem: I have a problem when I try to install the requirements</em>
+
+Solution: Be sure to download and install **BuildTools C++** https://visualstudio.microsoft.com/visual-cpp-build-tools/
