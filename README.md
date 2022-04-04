@@ -1,7 +1,12 @@
-Forked from https://github.com/SavannahCaToken/Pancakeswap_BSC_Sniper_Bot_Fullversion/
-
 # 🚀 Pancakeswap BSC - Uniswap ERC-20 Sniper Bot 🚀
 Web3 Pancakeswap Sniper & Take Profit/StopLoss bot written in python3
+
+
+https://etherscan.io/tx/0x6d0ccefbaa2947f3eec6d54ebc7af6b079b379ce2317e2405bdf581f34389591
+https://etherscan.io/tx/0x8c18fcba662a99f76f01e0032b6a512175ad643eec8e9f9ed6c7d41a2a43d5ab
+
+![image](https://user-images.githubusercontent.com/102369376/161604174-dc2d4ba8-0f73-4f63-98be-1ccb1ba963d4.png)
+
 
 **For now, ERC-20 and Telegram Alerts are under devedevelopment.**
 ## Our thanks:
