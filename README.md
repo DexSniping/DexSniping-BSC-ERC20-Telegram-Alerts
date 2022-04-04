@@ -8,7 +8,7 @@ https://etherscan.io/tx/0x8c18fcba662a99f76f01e0032b6a512175ad643eec8e9f9ed6c7d4
 ![image](https://user-images.githubusercontent.com/102369376/161604174-dc2d4ba8-0f73-4f63-98be-1ccb1ba963d4.png)
 
 
-**For now, ERC-20 and Telegram Alerts are under devedevelopment.**
+**For now, Telegram Alerts are under development.**
 ## Our thanks:
 
 BOT is free-to-use, but you are welcome to appreciate my work ☺️
