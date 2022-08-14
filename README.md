@@ -1,5 +1,5 @@
 # 🚀 Pancakeswap BSC - Uniswap ERC-20 Sniper Bot 🚀
-Web3 Pancakeswap Sniper & Take Profit/StopLoss bot written in python3
+Pancakeswap BSC - Uniswap ERC-20 Sniper Bot with Telegram Alert Web3
 
 
 https://etherscan.io/tx/0x6d0ccefbaa2947f3eec6d54ebc7af6b079b379ce2317e2405bdf581f34389591
