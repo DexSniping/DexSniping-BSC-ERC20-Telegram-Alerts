@@ -1,4 +1,4 @@
-## Bot still working in 2023-2024 
+## Bot still working in 2024 
 
 # 🚀 Pancakeswap BSC - Uniswap ERC-20 Sniper Bot 🚀
 Pancakeswap BSC - Uniswap ERC-20 Sniper Bot with Telegram Alert Web3
