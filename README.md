@@ -36,7 +36,7 @@ BNB - 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52
 
 # Install
 
-**I'm using version 3.9.12 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: https://www.python.org/downloads/release/python-3912/
+**I'm using version 3.11.8 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: [https://www.python.org/downloads/release/python-3118/](https://www.python.org/downloads/release/python-3118/)
 
 Run on Android you need Install [Termux](https://termux.com/)
 
@@ -112,7 +112,7 @@ Here are all options with infos:
 
 <em>Problem: My bot does not start and displays a "loadTokens" or "unknown opcode" error:</em>
 
-Solution: I'm using version 3.9.12 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot): https://www.python.org/downloads/release/python-3912/
+Solution: I'm using version 3.11.8 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot): [https://www.python.org/downloads/release/python-3118/](https://www.python.org/downloads/release/python-3118/)
 
 <em>Problem: "python" does not work, what to do?</em>
 
