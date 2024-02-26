@@ -1,3 +1,4 @@
+import sys
 from web3 import Web3
 import json
 from style import style
@@ -10,7 +11,7 @@ class TXN():
     def __init__(self, token_address, quantity):
         self.w3 = self.connect()
         self.address, self.private_key = self.setup_address()
-        self.token_address = Web3.toChecksumAddress(token_address)
+        self.token_address = Web3.to_checksum_address(token_address)
         self.token_contract = self.setup_token()
         self.swapper_address, self.swapper = self.setup_swapper()
         self.slippage = self.setupSlippage()
@@ -58,7 +59,7 @@ class TXN():
 
 
     def setup_swapper(self):
-        swapper_address = Web3.toChecksumAddress("0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52") 
+        swapper_address = Web3.to_checksum_address("0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52") 
         with open("./abis/BSC_Swapper.json") as f:
             contract_abi = json.load(f)
         swapper = self.w3.eth.contract(address=swapper_address, abi=contract_abi)
@@ -99,7 +100,7 @@ class TXN():
                     "value": txn['value'],
                     "data": txn['data']})
         gas = gas + (gas / 10) # Adding 1/10 from gas to gas!
-        maxGasBNB = Web3.fromWei(gas * self.gas_price, "ether")
+        maxGasBNB = Web3.from_wei(gas * self.gas_price, "ether")
         print(style.GREEN + "\nMax Transaction cost " + str(maxGasBNB) + " BNB" + style.RESET)
         if maxGasBNB > self.MaxGasInBNB:
             print(style.RED +"\nTx cost exceeds your settings, exiting!")
@@ -107,11 +108,12 @@ class TXN():
         return gas
 
 
-    def getOutputfromBNBtoToken(self):
+    def getOutputfromBNBtoToken(self): 
         call = self.swapper.functions.getOutputfromBNBtoToken(
             self.token_address,
             int(self.quantity * (10**18)),
             ).call()
+        print(call)
         Amount = call[0]
         Way = call[1]
         return Amount, Way
