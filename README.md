@@ -52,7 +52,7 @@ python -m pip install -r requirements.txt
 
 Start Sniper:
 
-```python
+```python example
 python Sniper.py -t <TOKEN_ADDRESS> -a <AMOUNT> -tx <TXAMOUNT> -hp -wb <BLOCKS WAIT BEFORE BUY> -tp <TAKE PROFIT IN PERCENT> -sl <STOP LOSE IN PERCENT>
 python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -a 0.1 -tx 2 -hp  -wb 10 -tp 50
 python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 --sellonly
@@ -63,23 +63,23 @@ python Sniper.py -t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52 -tsl 10 -nb
 Here are all options with infos:
 
 ```python3
-*'-t' or '--token', Token for snipe e.g. "-t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52"
-'-a' or '--amount', float, Amount in Bnb to snipe e.g. "-a 0.1"
-
-'-tx' or '--txamount', how mutch tx you want to send? It split your BNB amount in e.g. "-tx 5"
-
-'-wb' or '--awaitBlocks', default=0, Await Blocks before sending BUY Transaction. e.g. "-ab 50"
-
-'-hp' or '--honeypot', if you use this Flag, your token get checks if token is honypot before buy!
-
-'-nb' or '--nobuy', No Buy, Skipp buy, if you want to use only TakeProfit/StopLoss/TrailingStopLoss
-'-tp' or '--takeprofit', Percentage TakeProfit from your input BNB amount. e.g. "-tp 50"
-'-tsl'or '--trailingstoploss', 'Percentage Trailing-Stop-loss from your first Quote "-tsl 50"
-
-'-so' or '--sellonly', Sell ALL your Tokens from given token address
-'-bo' or '--buyonly', Buy Tokens with your given amount
-
-* = require every time its runs!
+'-t', '--token', help='str, Token for snipe e.g. "-t 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52"'
+'-a', '--amount', default=0, help='float, Amount in Bnb to snipe e.g. "-a 0.1"'
+'-tx', '--txamount', default=1, nargs="?", const=1, type=int, help='int, how mutch tx you want to send? It Split your BNB Amount in e.g. "-tx 5"'
+'-sp', '--sellpercent', default=100, nargs="?", const=1, type=int, help='int, how mutch tokens you want to sell? Percentage e.g. "-sp 80"'
+'-hp', '--honeypot', default=False, help='Check if your token to buy is a Honeypot, e.g. "-hp" or "--honeypot"'
+'-nb', '--nobuy', help='No Buy, Skipp buy, if you want to use only TakeProfit/StopLoss/TrailingStopLoss'
+'-tp', '--takeprofit', default=0, nargs="?", const=True, type=int, help='int, Percentage TakeProfit from your input BNB amount "-tp 50" '
+'-sl', '--stoploss', default=0, nargs="?", const=True, type=int, help='int, Percentage Stop loss from your input BNB amount "-sl 50" '
+'-tsl', '--trailingstoploss', default=0, nargs="?", const=True, type=int, help='int, Percentage Trailing-Stop-loss from your first Quote "-tsl 50" '
+'-wb', '--awaitBlocks', default=0, nargs="?", const=True, type=int, help='int, Await Blocks before sending BUY Transaction "-wb 5" '
+'-cmt', '--checkMaxTax',  help='get Token Tax and check if its higher.'
+'-cc', '--checkcontract',  help='Check is Contract Verified and Look for some Functions.'
+'-so', '--sellonly',  help='Sell all your Tokens from given address'
+'-bo', '--buyonly',  help='Buy Tokens with from your given amount'
+'-cl', '--checkliquidity',  help='with this arg you use liquidityCheck'
+'-r', '--retry', default=3, nargs="?", const=True, type=int, help='with this arg you retry automatically if your tx failed, e.g. "-r 5" or "--retry 5" for max 5 Retrys'
+'-sec', '--SwapEnabledCheck',  help='this argument disabled the SwapEnabled Check!'
 ```
 
 Run on Android you need Install [Termux](https://termux.com/)
