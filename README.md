@@ -32,7 +32,14 @@ BNB - 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52
 
 # Download
 
-### If you are not familiar with Python please have a look at [Releases]
+### If you are not familiar with GIT please have a look at [Releases]
+
+Clone Repo:
+
+```shell
+git clone https://github.com/DexSniping/DexSniping-BSC-ERC20-Telegram-Alerts.git
+cd DexSniping-BSC-ERC20-Telegram-Alerts
+```
 
 # Install
 
@@ -96,13 +103,6 @@ Download Windows BuildTools: https://visualstudio.microsoft.com/visual-cpp-build
 And install **BuildTools C++**
 
 ![buildtools](buildtools.png)
-
-Clone Repo:
-
-```shell
-git clone https://github.com/DexSniping/DexSniping-BSC-ERC20-Telegram-Alerts.git
-cd DexSniping-BSC-ERC20-Telegram-Alerts
-```
 
 ## Trailing-Stop-Loss:
 
