@@ -1,4 +1,4 @@
-## Bot still working in 26/02/2024
+## Bot still working in 01/03/2024
 
 # 🚀 Pancakeswap BSC - Uniswap ERC-20 Sniper Bot 🚀
 
@@ -38,32 +38,6 @@ BNB - 0xaAA9c55FF5ce8e6431d84BE3cf9d0Ba39742ac52
 
 **I'm using version 3.11.8 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: [https://www.python.org/downloads/release/python-3118/](https://www.python.org/downloads/release/python-3118/)
 
-Run on Android you need Install [Termux](https://termux.com/)
-
-```shell
-termux: $ pkg install python git
-Debian/Ubuntu: $ sudo apt install python3 git make gcc
-Windows: Need to install Visual Studio BuildTools & Python3
-```
-
-**For Windows:**
-Download Windows BuildTools: https://visualstudio.microsoft.com/visual-cpp-build-tools/
-
-And install **BuildTools C++**
-
-![buildtools](buildtools.png)
-
-### Setup your address (just under your account name) and secret key in Settings.json.
-
-![howto](how-to-export.gif)
-
-Clone Repo:
-
-```shell
-git clone https://github.com/DexSniping/DexSniping-BSC-ERC20-Telegram-Alerts.git
-cd DexSniping-BSC-ERC20-Telegram-Alerts
-```
-
 Install Requirements:
 
 **Try to add "3" after python if you have problems, like: python3 sniper.py...**
@@ -71,6 +45,10 @@ Install Requirements:
 ```python
 python -m pip install -r requirements.txt
 ```
+
+### Setup your address (just under your account name) and secret key in Settings.json.
+
+![howto](how-to-export.gif)
 
 Start Sniper:
 
@@ -102,6 +80,28 @@ Here are all options with infos:
 '-bo' or '--buyonly', Buy Tokens with your given amount
 
 * = require every time its runs!
+```
+
+Run on Android you need Install [Termux](https://termux.com/)
+
+```shell
+termux: $ pkg install python git
+Debian/Ubuntu: $ sudo apt install python3 git make gcc
+Windows: Need to install Visual Studio BuildTools & Python3
+```
+
+**For Windows:**
+Download Windows BuildTools: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+And install **BuildTools C++**
+
+![buildtools](buildtools.png)
+
+Clone Repo:
+
+```shell
+git clone https://github.com/DexSniping/DexSniping-BSC-ERC20-Telegram-Alerts.git
+cd DexSniping-BSC-ERC20-Telegram-Alerts
 ```
 
 ## Trailing-Stop-Loss:
