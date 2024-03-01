@@ -1,12 +1,20 @@
 {
-    "metamask_address": "",
-    "metamask_private_key": "",
-    "RPC": "https://bsc-dataseed1.defibit.io/",
-    "GWEI_GAS": 8,
-    "MaxTXFeeBNB": 0.01,
-    "Slippage": 10,
-    "MaxBuyTax": 15,
-    "MaxSellTax": 15,
-    "MinBuyTax": 1,
-    "MinSellTax": 1
+  "metamask_address": "",
+  "metamask_private_key": "",
+
+  "RPC": "https://bsc-dataseed.binance.org/",
+  "GWEI_GAS": 8,
+  "MaxTXFeeBNB": 0.01,
+  "Slippage": 10,
+
+  "MinLiquidityUSD": 10000,
+  "MaxBuyTax": 15,
+  "MaxSellTax": 15,
+  "MinBuyTax": 0,
+  "MinSellTax": 0,
+
+  "timeout": 120,
+  "SaveGasCost": true,
+
+  "cc_BlacklistWords": [""]
 }
