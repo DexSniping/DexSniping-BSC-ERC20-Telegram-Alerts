@@ -1,4 +1,4 @@
-## Bot still working in 01/03/2024
+## Bot still working in 02/03/2024
 
 # 🚀 Pancakeswap BSC - Uniswap ERC-20 Sniper Bot 🚀
 
@@ -43,7 +43,7 @@ cd DexSniping-BSC-ERC20-Telegram-Alerts
 
 # Install
 
-**I'm using version 3.11.8 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: [https://www.python.org/downloads/release/python-3118/](https://www.python.org/downloads/release/python-3118/)
+**I'm using version 3.12.2 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot)**: [https://www.python.org/downloads/release/python-3122/](https://www.python.org/downloads/release/python-3122/)
 
 Install Requirements:
 
@@ -112,7 +112,7 @@ And install **BuildTools C++**
 
 <em>Problem: My bot does not start and displays a "loadTokens" or "unknown opcode" error:</em>
 
-Solution: I'm using version 3.11.8 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot): [https://www.python.org/downloads/release/python-3118/](https://www.python.org/downloads/release/python-3118/)
+Solution: I'm using version 3.12.2 of Python, you can download it here (Be sure to use this version at least to avoid problems with the bot): [https://www.python.org/downloads/release/python-3122/](https://www.python.org/downloads/release/python-3122/)
 
 <em>Problem: "python" does not work, what to do?</em>
 
