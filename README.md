@@ -1,4 +1,4 @@
-## Bot still working in 07/03/2024
+## Bot still working in 14/06/2024
 
 # 🚀 Pancakeswap BSC - Uniswap ERC-20 Sniper Bot 🚀
 
